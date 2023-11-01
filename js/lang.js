@@ -1,4 +1,5 @@
 let lang = navigator.languages[0] || 'en-EN'
+console.log(lang)
 if(lang == 'ru-RU') {
 	document.getElementById("quantumDescription").innerHTML = ' — профессиональный Discord-бот, способный предоставить весь необходимый функционал серверу в его развитии: <span style="color: rgb(255, 255, 255, 0.7)">экономика</span>, <span style="color: rgb(255, 255, 255, 0.7)">AI-модерация</span>, <span style="color: rgb(255, 255, 255, 0.7)">интерактивные игры</span>, <span style="color: rgb(255, 255, 255, 0.7)">приветствия</span>, <span style="color: rgb(255, 255, 255, 0.7)">программирование<br>слеш-команд</span> и многое другое. Попробуйте!'
 	document.getElementById("inviteButton").innerHTML = 'Пригласить'
