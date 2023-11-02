@@ -35,8 +35,8 @@ if(lang == 'ru-RU') {
 	document.getElementById("footerTerms").innerHTML = 'Политика использования' 
 	document.getElementById("footerPrivacy").innerHTML = 'Конфиденциальность'
 
-	document.getElementById("footerTerms").href = 'https://github.com/kooolami/quantumbot/blob/main/terms_ru.md'
-	document.getElementById("footerPrivacy").href = 'https://github.com/kooolami/quantumbot/blob/main/privacy_ru.md'
+	document.getElementById("footerTerms").setAttribute('href', "https://github.com/kooolami/quantumbot/blob/main/terms_ru.md");
+	document.getElementById("footerPrivacy").setAttribute('href', "https://github.com/kooolami/quantumbot/blob/main/privacy_ru.md");
 
 	document.getElementById("footerSecret").innerHTML = '© 2023 Все права защищены'
 }
