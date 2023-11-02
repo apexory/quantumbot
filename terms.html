@@ -1,5 +1,84 @@
 <html>
-  <body>
-    ergerg
-  </body>
+	<head>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Commissioner:wght@100;200;300;400;500;700&display=swap" rel="stylesheet">
+
+		<title>It's Quantum Bot</title>
+		<link rel="icon" type="image/x-icon" href="favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/nav.css" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	    <meta name="description" content="It's Quantum Bot — a professional bot capable of supporting your server, providing all the necessary functionality during its development." />
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <meta name="theme-color" content="#111111">
+	    <meta name="keywords" content="bdb, discord bots, best discord bots, дискорд боты, discord, дискорд, disbots, disbots best" />  
+	    
+	    <meta property="og:type" content="website">
+	    <meta property="og:title" content="It's Quantum Bot">
+	    <meta property="og:description" content="It's Quantum Bot — a professional bot capable of supporting your server, providing all the necessary functionality during its development.">
+	    <meta property="og:url" content="https://kooolami.github.io/quantumbot">
+	    <meta property="og:image" content="https://images-ext-1.discordapp.net/external/DIkOismXj4B5YyvIl13mieGrvAp-vrmtmXgA39Qa33Y/https/cdn.discordapp.com/avatars/1130834452008947792/7b48f064a571ddb4c4ea2217fe2902ff.webp">
+	    <meta property="og:locale" content="en_US">
+  	</head>
+   <body style="background-color: #111111; color: #fff; font-weight: 100; font-family: 'Commissioner', sans-serif;">
+  		<style>
+  			.nav__light {
+  			  background-color: #3CA1FF;
+  			  width: 100%;
+  			  height: 115px;
+  			  filter: blur(250px);
+  			}
+  		</style>
+
+       <div class="nav__light"></div>
+
+       <p style="text-align: center; padding: 0 300px;" id="textTerms"><span style="font-size: 35px; font-weight: bold;">TERMS OF USE</span><br><br>
+		The Quantum team ("us", "we" or "our") owns and operates It's Quantum Bot ("Bot" or "Service"). Please read these Terms of Service (the "Terms") before using the Service. By using the Service, you agree to these Terms. If you do not agree with any part of the terms, you have no right to use the Service.<br><br>
+
+		<span style="font-size: 30px;">Usage</span><br><br>
+		- By using the Service, you immediately agree that you accept Discord's Terms of Service and agree that your account may be blocked from using the Service if you violate Discord's Terms of Service in any way.<br><br>
+		- Modification, distribution of material for public display or their use for commercial purposes is strictly prohibited.<br><br>
+
+		<span style="font-size: 30px;">Termination of use</span><br><br>
+		- We reserve the right to change or terminate the operation of It's Quantum Bot at any time without prior notice.<br><br>
+		- We reserve the right to disable your access to It's Quantum Bot if you violate these terms of use.<br><br>
+
+		<span style="font-size: 30px;">Disclaimer of liability</span><br><br>
+		- Quantum and its It's Quantum Bot service are not responsible for damage on your Discord server due to incorrect configuration of functionality or inattention of the administration of this server.<br><br>
+		- In addition, Quantum and its It's Quantum Bot service are not responsible for the actions of other users and do not check their contents. Everything is carried out solely at the risk of users.<br><br>
+
+		<span style="font-size: 30px;">Regulatory legislation</span><br><br>
+		- These terms of use are regulated in accordance with the legislation of the Russian Federation and you unconditionally follow this legislation.<br><br>
+
+		<span style="font-size: 23px;">The Terms of Use are valid from August 3, 2023.</span><br><br><br>
+		</p>
+
+		<script>
+		let lang = navigator.languages[0] || 'en-EN'
+		if(lang == 'ru-RU') {
+			document.getElementById("textTerms").innerHTML = `<span style="font-size: 35px; font-weight: bold;">Условия Использования</span><br><br>
+		Команда Quantum («нас», «мы» или «наш») владеет и управляет It's Quantum Bot («Бот» или «Сервис»). Пожалуйста, ознакомьтесь с настоящими Условиями обслуживания («Условия») перед использованием Сервиса. Используя Сервис, вы соглашаетесь с настоящими Условиями. Если вы не согласны с какой-либо частью условий, вы не имеете права использовать Сервис.<br><br>
+
+		<span style="font-size: 30px;">Использование</span><br><br>
+		- Используя «Сервис», вы немедленно соглашаетесь с тем, что принимаете Условия обслуживания Discord, и соглашаетесь с тем, что ваша учетная запись может быть заблокирована для использования «Сервиса», если вы каким-либо образом нарушаете Условия обслуживания Discord.<br><br>
+		- Модификация, распространение материала для публичного показа или же их использование в коммерческих целях строго запрещено.<br><br>
+
+		<span style="font-size: 30px;">Прекращение действия использования</span><br><br>
+		- Мы оставляем за собой право изменять или прекращать работу бота It's Quantum Bot в любое время без предварительного уведомления.<br><br>
+		- Мы оставляем за собой право отключить вам доступ к боту It's Quantum Bot, если вы нарушите указанные условия использования.<br><br>
+
+		<span style="font-size: 30px;">Отказ от ответственности</span><br><br>
+		- Quantum и его сервис It's Quantum Bot не несет ответственности за ущерб на вашем сервере Discord вследствие неправильной настройки функциональности или же невнимательности администрации этого сервера.<br><br>
+		- Помимо этого, Quantum и его сервис It's Quantum Bot не несет ответственности за действия других пользователей и не проверяет их содержимое. Все осуществляется исключительно на страх и риск пользователей.<br><br>
+
+		<span style="font-size: 30px;">Регулирующее законодательство</span><br><br>
+		- Данные условия использования регулируются в соответствии с законодательством Российской Федерации и Вы безоговорочно следуете этому законодательству.<br><br>
+
+		<span style="font-size: 23px;">Условия Использования действуют с 3 августа 2023 года.</span><br><br><br>`
+		}
+		</script>
+
+   </body>
 </html>
